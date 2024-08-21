@@ -1,3 +1,5 @@
+<?php Header("Cache-Control: max-age=3000, must-revalidate"); ?>
+
 <?php get_header(); ?>
 
 <main class="container mx-auto py-8">
