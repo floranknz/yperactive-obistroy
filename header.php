@@ -67,6 +67,7 @@
             </div>
                 <div class="rs flex gap-8 mt-4 absolute right-0">
                     <a href="https://www.instagram.com/o_bistroy/" target="_blank"><i class="bx bx-sm bxl-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61559738912098" target="_blank"><i class="bx bx-sm bxl-facebook-square"></i></a>
                 </div>
                 <div class="mobile-menu absolute right-48 md:hidden flex items-center justify-center h-40 w-40 border border-soft-white-100/25 rounded cursor-pointer"><i class="bx bx-sm bx-menu-alt-right"></i></div>
             </div>
