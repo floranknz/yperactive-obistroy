@@ -18,7 +18,12 @@ get_header();
             <span class="pretitle-1 animatecss animatecss-fadeInDown">Restaurant - Bar à cocktails - Bar à vin</span>
             <h1 class="title-1 text-pure-white animatecss animatecss-fadeInDown mb-8">Urban food lounge</h1>
             <p class="animatecss animatecss-fadeInDown">Niché au dernier étage, au coeur d’un espace végétalisé, profitez d’une carte de mets et cocktails préparés avec attention.</p>
-            <a class="btn btn-primary mt-24" href="https://bookings.zenchef.com/results?rid=367697" target="_blank">Réserver une table</a>
+            <div class="flex gap-16">
+                <a class="btn btn-primary mt-24" href="https://bookings.zenchef.com/results?rid=367697" target="_blank">Réserver une table</a>
+                <?php if(get_field('header-button2-boolean')){ ?>
+                <a class="btn btn-primary mt-24" href="<?= get_field('main-button2-url') ?>" target="_blank" style="background-color: <?= get_field('main-button2-bg') ?>"><?= get_field('main-button2-label') ?></a>
+                <?php } ?>
+            </div>
         </div>
     </div>
     <i class="bx bx-sm bx-down-arrow-circle absolute mt-[350px] animatecss animatecss-pulse animatecss-infinite"></i>
