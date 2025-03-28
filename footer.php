@@ -24,6 +24,7 @@
                 <div class="rs flex gap-8">
                 <a href="https://www.instagram.com/o_bistroy/" target="_blank"><i class="bx bx-sm bxl-instagram"></i></a>
                 <a href="https://www.facebook.com/profile.php?id=61559738912098" target="_blank"><i class="bx bx-sm bxl-facebook-square"></i></a>
+                <a href="https://www.linkedin.com/company/o-bistroy/" target="_blank"><i class="bx bx-sm bxl-linkedin"></i></a>
                 </div>
             </div>
         </div>
