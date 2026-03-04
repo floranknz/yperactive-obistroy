@@ -15,7 +15,7 @@
             </div>
         </div>       
     <?php }else{ ?>
-        <div class="hero-full flex flex-col gap-48 items-center justify-center h-screen bg-sage-400 text-pure-white px-24" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('<?= get_field('header-image') ?>')">
+        <div class="hero-full relative flex flex-col gap-48 items-center justify-center h-screen bg-sage-400 text-pure-white px-24" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('<?= get_field('header-image') ?>')">
             <div class="md:container flex flex-row justify-center">
                 <div class="content flex md:w-1/2 gap-8 flex-col justify-center items-center text-center">
                     <span class="pretitle-1 animatecss animatecss-fadeInDown"><?= esc_html( get_field('pretitle') ); ?></span>
@@ -23,7 +23,7 @@
                     <p class="animatecss animatecss-fadeInDown"><?= esc_html( get_field('subtitle') ); ?></p>
                 </div>
             </div>
-            <i class="bx bx-sm bx-down-arrow-circle absolute mt-[350px] animatecss animatecss-pulse animatecss-infinite"></i>
+            <i class="bx bx-sm bx-down-arrow-circle absolute bottom-8 left-1/2 -translate-x-1/2 animatecss animatecss-pulse animatecss-infinite"></i>
         </div>
     <?php } ?>
         
