@@ -12,7 +12,7 @@ get_header();
     $block3 = get_field("bloc-3");
 ?>
 
-<div class="hero-full flex flex-col gap-48 items-center justify-center h-screen bg-sage-400 text-pure-white px-24">
+<div class="hero-full relative flex flex-col gap-48 items-center justify-center h-screen bg-sage-400 text-pure-white px-24">
     <div class="md:container flex flex-row justify-center">
         <div class="content flex md:w-1/2 gap-8 flex-col justify-center items-center text-center">
             <span class="pretitle-1 animatecss animatecss-fadeInDown">Restaurant - Bar à cocktails - Bar à vin</span>
@@ -20,13 +20,13 @@ get_header();
             <p class="animatecss animatecss-fadeInDown">Niché au dernier étage, au coeur d’un espace végétalisé, profitez d’une carte de mets et cocktails préparés avec attention.</p>
             <div class="flex gap-16">
                 <a class="btn btn-primary mt-24" href="https://bookings.zenchef.com/results?rid=367697" target="_blank">Réserver une table</a>
-                <?php if(get_field('header-button2-boolean')){ ?>
-                <a class="btn btn-primary mt-24" href="<?= get_field('main-button2-url') ?>" target="_blank" style="background-color: <?= get_field('main-button2-bg') ?>"><?= get_field('main-button2-label') ?></a>
+                <?php if(get_field(‘header-button2-boolean’)){ ?>
+                <a class="btn btn-primary mt-24" href="<?= get_field(‘main-button2-url’) ?>" target="_blank" style="background-color: <?= get_field(‘main-button2-bg’) ?>"><?= get_field(‘main-button2-label’) ?></a>
                 <?php } ?>
             </div>
         </div>
     </div>
-    <i class="bx bx-sm bx-down-arrow-circle absolute mt-[350px] animatecss animatecss-pulse animatecss-infinite"></i>
+    <i class="bx bx-sm bx-down-arrow-circle absolute bottom-8 left-1/2 -translate-x-1/2 animatecss animatecss-pulse animatecss-infinite"></i>
 </div>
 <div class="bloc-2 container flex flex-col max-sm:flex-col gap-32 lg:flex-row justify-between items-center my-80 max-md:overflow-hidden">
     <div class="basis-1/2 relative">
