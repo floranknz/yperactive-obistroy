@@ -6,7 +6,7 @@ Template Name: Home (vide)
 get_header();
 ?>
 
-<div class="hero-full flex flex-col gap-48 items-center justify-center h-screen bg-pure-black text-pure-white px-24">
+<div class="hero-full relative flex flex-col gap-48 items-center justify-center h-screen bg-pure-black text-pure-white px-24">
     <div class="md:container flex flex-row justify-center">
         <div class="content flex md:w-1/2 gap-8 flex-col justify-center items-center text-center">
             <span class="pretitle-1 animatecss animatecss-fadeInDown">Centre de soins et de bien-être</span>
@@ -14,7 +14,7 @@ get_header();
             <p class="animatecss animatecss-fadeInDown">Prenez du temps pour vous dans un écrin de douceur et de volupté lors d’un un voyage entre aquathérapie et soins de bien-être.</p>
         </div>
     </div>
-    <i class="bx bx-sm bx-down-arrow-circle absolute mt-[350px] animatecss animatecss-pulse animatecss-infinite"></i>
+    <i class="bx bx-sm bx-down-arrow-circle absolute bottom-8 left-1/2 -translate-x-1/2 animatecss animatecss-pulse animatecss-infinite"></i>
 </div>
 
 <?php 
