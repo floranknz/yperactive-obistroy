@@ -23,7 +23,7 @@
                     <p class="animatecss animatecss-fadeInDown"><?= esc_html( get_field('subtitle') ); ?></p>
                 </div>
             </div>
-            <i class="bx bx-sm bx-down-arrow-circle absolute bottom-8 left-1/2 -translate-x-1/2 animatecss animatecss-pulse animatecss-infinite"></i>
+            <i class="bx bx-sm bx-down-arrow-circle relative z-10 shrink-0 animatecss animatecss-pulse animatecss-infinite"></i>
         </div>
     <?php } ?>
         

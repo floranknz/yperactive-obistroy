@@ -14,7 +14,7 @@ get_header();
             <p class="animatecss animatecss-fadeInDown">Prenez du temps pour vous dans un écrin de douceur et de volupté lors d’un un voyage entre aquathérapie et soins de bien-être.</p>
         </div>
     </div>
-    <i class="bx bx-sm bx-down-arrow-circle absolute bottom-8 left-1/2 -translate-x-1/2 animatecss animatecss-pulse animatecss-infinite"></i>
+    <i class="bx bx-sm bx-down-arrow-circle relative z-10 shrink-0 animatecss animatecss-pulse animatecss-infinite"></i>
 </div>
 
 <?php 

@@ -14,7 +14,7 @@ get_header();
 
 <div class="hero-full relative flex flex-col gap-48 items-center justify-center h-screen bg-sage-400 text-pure-white px-24">
     <div class="md:container flex flex-row justify-center">
-        <div class="content flex md:w-1/2 gap-8 flex-col justify-center items-center text-center">
+        <div class="content relative z-20 flex md:w-1/2 gap-8 flex-col justify-center items-center text-center">
             <span class="pretitle-1 animatecss animatecss-fadeInDown">Restaurant - Bar à cocktails - Bar à vin</span>
             <h1 class="title-1 text-pure-white animatecss animatecss-fadeInDown mb-8">Urban food lounge</h1>
             <p class="animatecss animatecss-fadeInDown">Niché au dernier étage, au coeur d’un espace végétalisé, profitez d’une carte de mets et cocktails préparés avec attention.</p>
@@ -26,7 +26,7 @@ get_header();
             </div>
         </div>
     </div>
-    <i class="bx bx-sm bx-down-arrow-circle absolute bottom-8 left-1/2 -translate-x-1/2 animatecss animatecss-pulse animatecss-infinite"></i>
+    <i class="bx bx-sm bx-down-arrow-circle relative z-10 shrink-0 animatecss animatecss-pulse animatecss-infinite"></i>
 </div>
 <div class="bloc-2 container flex flex-col max-sm:flex-col gap-32 lg:flex-row justify-between items-center my-80 max-md:overflow-hidden">
     <div class="basis-1/2 relative">
