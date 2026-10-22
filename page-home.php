@@ -20,8 +20,8 @@ get_header();
             <p class="animatecss animatecss-fadeInDown">Niché au dernier étage, au coeur d’un espace végétalisé, profitez d’une carte de mets et cocktails préparés avec attention.</p>
             <div class="flex gap-16">
                 <a class="btn btn-primary mt-24" href="https://bookings.zenchef.com/results?rid=367697" target="_blank">Réserver une table</a>
-                <?php if(get_field(‘header-button2-boolean’)){ ?>
-                <a class="btn btn-primary mt-24" href="<?= get_field(‘main-button2-url’) ?>" target="_blank" style="background-color: <?= get_field(‘main-button2-bg’) ?>"><?= get_field(‘main-button2-label’) ?></a>
+                <?php if(get_field('header-button2-boolean')){ ?>
+                <a class="btn btn-primary mt-24" href="<?= get_field('main-button2-url') ?>" target="_blank" style="background-color: <?= get_field('main-button2-bg') ?>"><?= get_field('main-button2-label') ?></a>
                 <?php } ?>
             </div>
         </div>
